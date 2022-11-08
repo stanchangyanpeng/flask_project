@@ -1,2 +1,2 @@
 # flask_project
-基于flask框架开发的微型web
+基于flask框架开发的微型web,使用到flask_login账户密码认证,以及Blueprint和current_app
