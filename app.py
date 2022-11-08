@@ -17,7 +17,7 @@ app.config['SECRET_KEY'] = '123456cyp' # 设置表单交互密钥
 app.debug = True
 
 #数据库信息
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:123123@10.44.203.30:3306/dimension_dt'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:password@ip:port/database'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  # 关闭对模型修改的监控
 
 db = SQLAlchemy(app)
