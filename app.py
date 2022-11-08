@@ -1,4 +1,4 @@
-#pip install flask  -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+
 from flask import Flask,Blueprint
 from gevent import pywsgi
 from flask import request,url_for,redirect,flash,session
