@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<p> 登录界面 </p>
+<form method="post">
+    Usr <input type="text" name="login_usr" autocomplete="off" required>
+    Password <input type="text" name="login_password" autocomplete="off" required>
+    <input class="btn" type="submit" name="submit" value="登录">
+</form>
+<img alt="Walking Totoro" class="totoro" src="{{ url_for('static', filename='images/totoro.gif') }}" title="to~to~ro~">
+{% endblock %}
